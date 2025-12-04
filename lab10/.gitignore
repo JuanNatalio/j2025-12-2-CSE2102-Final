@@ -1,0 +1,31 @@
+# Virtual environment
+bin/
+lib/
+lib64
+include/
+pyvenv.cfg
+share/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables
+.env
