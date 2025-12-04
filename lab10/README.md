@@ -26,9 +26,20 @@ The server runs on `http://localhost:5000`
 
 ## Testing
 
-Run the client:
+### Run Unit Tests
 ```bash
-python my-calls.py
+bin/python test_server.py
+```
+
+### Run Functional Tests
+First start the server, then in another terminal:
+```bash
+bin/python test_functional.py
+```
+
+### Run the Demo Client
+```bash
+bin/python my-calls.py
 ```
 
 ## Manual Testing with curl
